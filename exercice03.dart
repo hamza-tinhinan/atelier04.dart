@@ -12,5 +12,10 @@ class Compte {
       print("Le montant doit être positif.");
     }
   }
+  void main() {
+    var c1 = Compte("123ABC");
+    c1.depot(200);
+    print("Solde actuel : ${c1.solde}");
+}
 }
   
